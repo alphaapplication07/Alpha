@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#e2c905</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#e6e4e4</color>
+    <color name="buttonColor">#ff8c40</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="black">#000</color>
+    <color name="link_color">#4d94ff</color>
+    <color name="darkRed">#FFCA0A07</color>
+    <color name="transparent">#1A000000</color>
+    <color name="back">#FFFDE000</color>
+    <color name="neeraj">#111fff</color>
+</resources>

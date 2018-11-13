@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_name">36sp</dimen>
+    <dimen name="text1">24sp</dimen>
+    <dimen name="text2">18sp</dimen>
+    <dimen name="text3">16sp</dimen>
+    <dimen name="text4">14sp</dimen>
+
+</resources>
