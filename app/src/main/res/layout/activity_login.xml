@@ -154,6 +154,17 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Forget Password"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="5dp"/>
+
         </LinearLayout>
 
 

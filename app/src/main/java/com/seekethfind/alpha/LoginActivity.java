@@ -35,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button mLogin;
 
     private TextView mSignup;
+    private TextView mForgetPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         mPassword = findViewById(R.id.password);
         mLogin = findViewById(R.id.btnLogin);
         mSignup = findViewById(R.id.signup);
+        mForgetPass = findViewById(R.id.forget_password);
 
     }
 
@@ -150,6 +152,14 @@ public class LoginActivity extends AppCompatActivity {
                 Intent intent = new Intent(LoginActivity.this,SignupActivity.class);
                 startActivity(intent);
 
+            }
+        });
+
+        mForgetPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, ForgetPassword.class);
+                startActivity(intent);
             }
         });
 

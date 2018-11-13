@@ -14,8 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,29 +23,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:isScrollContainer="true"
             android:windowSoftInputMode="stateVisible|adjustPan" />
-
         <activity
             android:name=".SignupActivity"
             android:isScrollContainer="true"
             android:windowSoftInputMode="stateVisible|adjustPan" />
-
-        <activity android:name=".main.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
-        <activity android:name=".search.SearchActivity"
-            android:windowSoftInputMode="adjustNothing"></activity>
-
-        <activity android:name=".share.ShareActivity"></activity>
-        <activity android:name=".like.LikeActivity"></activity>
-        <activity android:name=".profile.ProfileActivity"></activity>
-        <activity android:name=".profile.AccountSettingActivity"></activity>
-        <activity android:name=".share.NextActivity" ></activity>
-
+        <activity
+            android:name=".main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".search.SearchActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".share.ShareActivity" />
+        <activity android:name=".like.LikeActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".profile.AccountSettingActivity" />
+        <activity android:name=".share.NextActivity" />
+        <activity android:name=".ForgetPassword"></activity>
     </application>
 
 </manifest>
